@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71C03F261AAC665E00616242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C03F251AAC665E00616242 /* main.m */; };
+		71C03F291AAC665E00616242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C03F281AAC665E00616242 /* AppDelegate.m */; };
+		71C03F2C1AAC665E00616242 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C03F2B1AAC665E00616242 /* ViewController.m */; };
+		71C03F2F1AAC665E00616242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C03F2D1AAC665E00616242 /* Main.storyboard */; };
+		71C03F311AAC665E00616242 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C03F301AAC665E00616242 /* Images.xcassets */; };
+		71C03F341AAC665E00616242 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C03F321AAC665E00616242 /* LaunchScreen.xib */; };
+		71C03F401AAC665E00616242 /* EPParagraphViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C03F3F1AAC665E00616242 /* EPParagraphViewTests.m */; };
+		71C03F4C1AAC7E5000616242 /* EPParagraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C03F4B1AAC7E5000616242 /* EPParagraphView.m */; };
+		7D7531BFF5E860AF03092498 /* libPods-EPParagraphView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320ED321B26615E0F12F8AFC /* libPods-EPParagraphView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71C03F3A1AAC665E00616242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C03F181AAC665E00616242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C03F1F1AAC665E00616242;
+			remoteInfo = EPParagraphView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320ED321B26615E0F12F8AFC /* libPods-EPParagraphView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EPParagraphView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C03F201AAC665E00616242 /* EPParagraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPParagraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C03F241AAC665E00616242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C03F251AAC665E00616242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71C03F271AAC665E00616242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71C03F281AAC665E00616242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71C03F2A1AAC665E00616242 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71C03F2B1AAC665E00616242 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71C03F2E1AAC665E00616242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C03F301AAC665E00616242 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71C03F331AAC665E00616242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71C03F391AAC665E00616242 /* EPParagraphViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPParagraphViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C03F3E1AAC665E00616242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C03F3F1AAC665E00616242 /* EPParagraphViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPParagraphViewTests.m; sourceTree = "<group>"; };
+		71C03F4A1AAC7E5000616242 /* EPParagraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPParagraphView.h; sourceTree = "<group>"; };
+		71C03F4B1AAC7E5000616242 /* EPParagraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPParagraphView.m; sourceTree = "<group>"; };
+		B39BF67DE682F0B9CCD43CE3 /* Pods-EPParagraphView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPParagraphView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EPParagraphView/Pods-EPParagraphView.debug.xcconfig"; sourceTree = "<group>"; };
+		DAA6F9C85AB9CFDEAEF945E1 /* Pods-EPParagraphView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPParagraphView.release.xcconfig"; path = "Pods/Target Support Files/Pods-EPParagraphView/Pods-EPParagraphView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C03F1D1AAC665E00616242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7531BFF5E860AF03092498 /* libPods-EPParagraphView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C03F361AAC665E00616242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C03F171AAC665E00616242 = {
+			isa = PBXGroup;
+			children = (
+				71C03F221AAC665E00616242 /* EPParagraphView */,
+				71C03F3C1AAC665E00616242 /* EPParagraphViewTests */,
+				71C03F211AAC665E00616242 /* Products */,
+				D8575052E75843F7BCC3D2EE /* Pods */,
+				9859FB0EB71AA0C005BA2C90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71C03F211AAC665E00616242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C03F201AAC665E00616242 /* EPParagraphView.app */,
+				71C03F391AAC665E00616242 /* EPParagraphViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C03F221AAC665E00616242 /* EPParagraphView */ = {
+			isa = PBXGroup;
+			children = (
+				71C03F491AAC7E5000616242 /* ParagraphView */,
+				71C03F271AAC665E00616242 /* AppDelegate.h */,
+				71C03F281AAC665E00616242 /* AppDelegate.m */,
+				71C03F2A1AAC665E00616242 /* ViewController.h */,
+				71C03F2B1AAC665E00616242 /* ViewController.m */,
+				71C03F2D1AAC665E00616242 /* Main.storyboard */,
+				71C03F301AAC665E00616242 /* Images.xcassets */,
+				71C03F321AAC665E00616242 /* LaunchScreen.xib */,
+				71C03F231AAC665E00616242 /* Supporting Files */,
+			);
+			path = EPParagraphView;
+			sourceTree = "<group>";
+		};
+		71C03F231AAC665E00616242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C03F241AAC665E00616242 /* Info.plist */,
+				71C03F251AAC665E00616242 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C03F3C1AAC665E00616242 /* EPParagraphViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				71C03F3F1AAC665E00616242 /* EPParagraphViewTests.m */,
+				71C03F3D1AAC665E00616242 /* Supporting Files */,
+			);
+			path = EPParagraphViewTests;
+			sourceTree = "<group>";
+		};
+		71C03F3D1AAC665E00616242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C03F3E1AAC665E00616242 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C03F491AAC7E5000616242 /* ParagraphView */ = {
+			isa = PBXGroup;
+			children = (
+				71C03F4A1AAC7E5000616242 /* EPParagraphView.h */,
+				71C03F4B1AAC7E5000616242 /* EPParagraphView.m */,
+			);
+			path = ParagraphView;
+			sourceTree = "<group>";
+		};
+		9859FB0EB71AA0C005BA2C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320ED321B26615E0F12F8AFC /* libPods-EPParagraphView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8575052E75843F7BCC3D2EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B39BF67DE682F0B9CCD43CE3 /* Pods-EPParagraphView.debug.xcconfig */,
+				DAA6F9C85AB9CFDEAEF945E1 /* Pods-EPParagraphView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C03F1F1AAC665E00616242 /* EPParagraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C03F431AAC665E00616242 /* Build configuration list for PBXNativeTarget "EPParagraphView" */;
+			buildPhases = (
+				EA89727A6B63B22B12231DB8 /* Check Pods Manifest.lock */,
+				71C03F1C1AAC665E00616242 /* Sources */,
+				71C03F1D1AAC665E00616242 /* Frameworks */,
+				71C03F1E1AAC665E00616242 /* Resources */,
+				B93BDF86959804E78DAF1FB1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPParagraphView;
+			productName = EPParagraphView;
+			productReference = 71C03F201AAC665E00616242 /* EPParagraphView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71C03F381AAC665E00616242 /* EPParagraphViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C03F461AAC665E00616242 /* Build configuration list for PBXNativeTarget "EPParagraphViewTests" */;
+			buildPhases = (
+				71C03F351AAC665E00616242 /* Sources */,
+				71C03F361AAC665E00616242 /* Frameworks */,
+				71C03F371AAC665E00616242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C03F3B1AAC665E00616242 /* PBXTargetDependency */,
+			);
+			name = EPParagraphViewTests;
+			productName = EPParagraphViewTests;
+			productReference = 71C03F391AAC665E00616242 /* EPParagraphViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C03F181AAC665E00616242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "CHIENMING LEE";
+				TargetAttributes = {
+					71C03F1F1AAC665E00616242 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					71C03F381AAC665E00616242 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 71C03F1F1AAC665E00616242;
+					};
+				};
+			};
+			buildConfigurationList = 71C03F1B1AAC665E00616242 /* Build configuration list for PBXProject "EPParagraphView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C03F171AAC665E00616242;
+			productRefGroup = 71C03F211AAC665E00616242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C03F1F1AAC665E00616242 /* EPParagraphView */,
+				71C03F381AAC665E00616242 /* EPParagraphViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C03F1E1AAC665E00616242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C03F2F1AAC665E00616242 /* Main.storyboard in Resources */,
+				71C03F341AAC665E00616242 /* LaunchScreen.xib in Resources */,
+				71C03F311AAC665E00616242 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C03F371AAC665E00616242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B93BDF86959804E78DAF1FB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EPParagraphView/Pods-EPParagraphView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA89727A6B63B22B12231DB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C03F1C1AAC665E00616242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C03F2C1AAC665E00616242 /* ViewController.m in Sources */,
+				71C03F291AAC665E00616242 /* AppDelegate.m in Sources */,
+				71C03F4C1AAC7E5000616242 /* EPParagraphView.m in Sources */,
+				71C03F261AAC665E00616242 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C03F351AAC665E00616242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C03F401AAC665E00616242 /* EPParagraphViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71C03F3B1AAC665E00616242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C03F1F1AAC665E00616242 /* EPParagraphView */;
+			targetProxy = 71C03F3A1AAC665E00616242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71C03F2D1AAC665E00616242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C03F2E1AAC665E00616242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C03F321AAC665E00616242 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C03F331AAC665E00616242 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C03F411AAC665E00616242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71C03F421AAC665E00616242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C03F441AAC665E00616242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39BF67DE682F0B9CCD43CE3 /* Pods-EPParagraphView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EPParagraphView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71C03F451AAC665E00616242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA6F9C85AB9CFDEAEF945E1 /* Pods-EPParagraphView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EPParagraphView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71C03F471AAC665E00616242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EPParagraphViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPParagraphView.app/EPParagraphView";
+			};
+			name = Debug;
+		};
+		71C03F481AAC665E00616242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EPParagraphViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPParagraphView.app/EPParagraphView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C03F1B1AAC665E00616242 /* Build configuration list for PBXProject "EPParagraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C03F411AAC665E00616242 /* Debug */,
+				71C03F421AAC665E00616242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C03F431AAC665E00616242 /* Build configuration list for PBXNativeTarget "EPParagraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C03F441AAC665E00616242 /* Debug */,
+				71C03F451AAC665E00616242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C03F461AAC665E00616242 /* Build configuration list for PBXNativeTarget "EPParagraphViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C03F471AAC665E00616242 /* Debug */,
+				71C03F481AAC665E00616242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C03F181AAC665E00616242 /* Project object */;
+}
