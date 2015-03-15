@@ -40,7 +40,7 @@
     NSDictionary *firstParagraph = @{ EPParagraphText : paragraph1,
                                       EPParagraphTextColor: textColor,
                                       EPParagraphFont : textFont,
-                                      EPParagraphLineSpacing : @(1.2)
+                                      EPParagraphLineSpacing : @(1.0)
                                       };
     
     NSDictionary *secondTitle = @{ EPParagraphText : @"Second Title",
@@ -52,7 +52,7 @@
     NSDictionary *secondParagraph = @{ EPParagraphText : paragraph2,
                                        EPParagraphTextColor: textColor,
                                        EPParagraphFont : textFont,
-                                       EPParagraphLineSpacing : @(1.2)
+                                       EPParagraphLineSpacing : @(1.0)
                                        };
     
     NSArray *attributesArray = @[firstTitle, firstParagraph, secondTitle, secondParagraph];

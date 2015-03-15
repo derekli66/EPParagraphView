@@ -2,7 +2,7 @@
 platform :ios, "7.0"
 
 target "EPParagraphView" do
-pod 'TTTAttributedLabel', '~> 1.10.1'
+pod 'TTTAttributedLabel', '~> 1.8.1'
 end
 
 target "EPParagraphViewTests" do

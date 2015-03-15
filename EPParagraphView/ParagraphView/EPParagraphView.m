@@ -8,8 +8,6 @@
 
 #import "EPParagraphView.h"
 
-#define BAD_SOLUTION_ADJUSTMENT 0.2f
-
 @interface EPParagraphView()
 @property (nonatomic, strong) NSArray *paragraphParameterArray;
 @property (nonatomic) CGFloat titlePadding;
@@ -223,7 +221,7 @@
     }
     
     NSMutableParagraphStyle *paragraphStype = [[NSMutableParagraphStyle alloc] init];
-    [paragraphStype setLineHeightMultiple:aLineHeight + BAD_SOLUTION_ADJUSTMENT];
+    [paragraphStype setLineHeightMultiple:aLineHeight];
     
     NSDictionary *attributed = @{ NSFontAttributeName : aFont,
                                   NSParagraphStyleAttributeName : paragraphStype

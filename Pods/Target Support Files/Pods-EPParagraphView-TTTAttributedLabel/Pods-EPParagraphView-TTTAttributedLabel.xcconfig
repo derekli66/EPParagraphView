@@ -1,1 +1,1 @@
-PODS_EPPARAGRAPHVIEW_TTTATTRIBUTEDLABEL_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "CoreText" -framework "QuartzCore"
+PODS_EPPARAGRAPHVIEW_TTTATTRIBUTEDLABEL_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "CoreText"
